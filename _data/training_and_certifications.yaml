@@ -1,8 +1,8 @@
 - date: 2023
   title: Scrum Master training
 - date: 2020
-  title: Kubernetes training 
+  title: Kubernetes training
   description: Basics of K8s, how to deploy and manage software in a K8s cluster
 - date: 2019
-  title: Clean code & TDD training 
+  title: Clean code & TDD training
   description: TDD & how to use it. Clean code best practices

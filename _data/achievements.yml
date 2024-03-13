@@ -1,37 +1,37 @@
-- title: "IATA ONE Record Hackathon - hosted by Lufthansa Cargo" 
+- title: IATA ONE Record Hackathon – Hosted by Lufthansa Cargo
   date: June 2023
-  context: IATA organized a hackathon sponsored by Lufthansa Cargo to demonstrate how aviation APIs and One Record can be leveraged in the logistics supply chain. As part of a team of 6 people, I participated in the development of a multimodal transport planning and tracking application.
+  context: IATA, sponsored by Lufthansa Cargo, organized a hackathon to showcase how aviation APIs and One Record can enhance the logistics supply chain. As part of a team of six, I contributed to developing a multimodal transport planning and tracking application.
   responsibilities:
-    - Developed a front-end with React.
+    - Developed the front-end using React.
   result:
-    - We demonstrated a comprehensive transport planning and analysis system involving multiple actors, and modes of transportation.
+    - Demonstrated a comprehensive transport planning and analysis system involving multiple stakeholders and transportation modes.
   technologies:
     - React
     - Material UI
     - MapBox
 
-- title: Multimodal Hackathon Amsterdam by IATA
+- title: Multimodal Hackathon Amsterdam – Organized by IATA
   date: May 2022
-  context: IATA organized a hackathon in partnership with DSCA to showcase how Maritime APIs and One Record can be utilized in the logistics supply chain. As part of a team of 7 people, I participated in the development of a marketplace aimed at connecting transport services needing cargo capacity with those that have empty containers to move.
+  context: IATA, in collaboration with DSCA, hosted a hackathon to explore how Maritime APIs and One Record can improve logistics. As part of a team of seven, I helped develop a marketplace connecting transport services needing cargo capacity with providers having empty containers to move.
   responsibilities:
-    - Developed a front-end with React.
+    - Developed the front-end using React.
   result:
-    - We presented a working app with mocked data that disaplyed how we could optimize transport of empty containers to limit polution and reduce cost. 
+    - Presented a working prototype with simulated data demonstrating how optimizing empty container transport can reduce costs and pollution.
     - Winner of the DSCA challenge.
   technologies:
     - React
     - Material UI
     - MapBox
 
-- title: Hackathon Twitch Channel Points 
+- title: Twitch Channel Points Hackathon
   date: March 2021
-  context: Twitch organized a hackathon to introduce its new API that allows interaction with streamers via channel points. As part of a team of 4 people, I participated in the development of an application that allows interaction with games or any type of tool.
+  context: Twitch organized a hackathon to introduce its new API, enabling viewer interactions with streamers via channel points. In a team of four, I contributed to building an application allowing users to interact with games and other tools.
   responsibilities:
-    - Developed a server in Node.js with Express.js.
-    - Developed a front-end with React.
-    - Developed a Minecraft plugin in Java.
+    - Developed a backend server using Node.js with Express.js.
+    - Built the front-end using React.
+    - Created a Minecraft plugin in Java.
   result:
-    - We developed an app that lets users modify the streamer's voice via MIDI signals and alter the Minecraft server environment using channel points.
+    - Developed an application enabling viewers to modify a streamer's voice using MIDI signals and alter the Minecraft server environment via channel points.
   technologies:
     - Node.js
     - Express.js
@@ -39,26 +39,27 @@
     - Material UI
     - Java
 
-- title: Hackathon Traefik 
+- title: Traefik Hackathon
   date: October 2020
-  context: Traefik organized a hackathon to highlight its plugin system. As part of a team of 2 people, I participated in the development of a plugin that allows a Docker service to "scale down" when not in use for a certain period and to restart as soon as a new request is received.
+  context: Traefik hosted a hackathon to highlight its plugin system. In a two-person team, I worked on developing a plugin that scales down a Docker service when inactive and restarts it upon receiving a new request.
   responsibilities:
     - Developed a Traefik plugin in Go.
-    - Developed a Node.js service.
+    - Built a supporting Node.js service.
   result:
-    - We developed an open-source project for managing container scaling through the Traefik plugin system. 
-    - Third place with the team "Containers on Demand"
+    - Created an open-source project enabling container auto-scaling via the Traefik plugin system.
+    - Achieved third place with the team "Containers on Demand."
   technologies:
     - Node.js
     - Go
     - Traefik
 
-- title: Hackathon IATA One Record September 2020
-  context: IATA organized its annual hackathon focused on its One Record standard, which aims to simplify and standardize communication in the air cargo industry. As part of a team of 6 people, I participated in the development of a "Track & Trace" application to demonstrate the tracking capabilities enabled by One Record, using the case of tracking a vaccine shipment.
+- title: IATA ONE Record Hackathon – September 2020
+  date: September 2020
+  context: IATA’s annual hackathon focused on its One Record standard, aiming to simplify and standardize communication in the air cargo industry. As part of a six-member team, I contributed to developing a "Track & Trace" application to demonstrate One Record’s tracking capabilities using a vaccine shipment as a case study.
   responsibilities:
-    - Developed a React application.
+    - Developed the front-end using React.
   result:
-    - We showcased an app that enables users to track their delivery through live event notifications and a map. 
+    - Showcased an application that enables users to track deliveries with live event notifications and real-time mapping.
     - Winner of the "Track & Trace" challenge.
   technologies:
     - React
