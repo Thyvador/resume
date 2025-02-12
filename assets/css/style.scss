@@ -3,7 +3,7 @@
 
 @import "{{ site.theme }}";
 
-.social_networks_links {
+.social-networks-links {
   list-style: none;
   height: 40px;
   padding: 0;
@@ -13,14 +13,14 @@
   justify-content: space-evenly;
 }
 
-.social_networks_links li {
+.social-networks-links li {
   width: 89px;
   float: left;
   height: 40px;
 }
 
 
-.social_networks_links a {
+.social-networks-links a {
   line-height: 1;
   font-size: 11px;
   display: block;
@@ -34,23 +34,30 @@ h2 {
   font-size: 1.5rem;
 }
 
-.profile_section {
+.profile-section {
   margin-top: 1rem;
   list-style: none;
   padding: 0;
 }
 
-.profile_section li {
+.profile-section li {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   margin: 0.5rem 0;
 }
-.profile_section li > img {
-  margin-right: 0.5rem;
-}
 
 .site_logo {
   max-width: 100%;
   height: auto;
+}
+
+.company-group {
+  border-left: solid 1px #aaa;
+  padding-left: 1rem;
+}
+
+.position-group, .achievement-group {
+  border-left: solid 1px #267cb991;
+  padding-left: 1rem;
 }

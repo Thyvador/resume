@@ -4,4 +4,9 @@ plugins:
 
 logo: /assets/img/profile_picture.jpg
 title: Alexandre H.
-description: Fullstack software developper.
+description: Fullstack software developper
+
+summary:
+  - I have been a full-stack software development engineer since 2019, with a strong commitment to software quality as my top priority. 
+  - I believe that Clean Code and DevOps are fundamental best practices that ensure maintainability, efficiency, and long-term success. In today’s agile environments, development processes should enhance quality rather than encourage rushed delivery.
+  - Passionate about challenges, I am eager to work on complex projects and explore innovative technologies. I thrive in environments that foster continuous learning and personal growth, always striving to push my skills further.

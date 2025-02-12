@@ -1,0 +1,65 @@
+- title: "IATA ONE Record Hackathon - hosted by Lufthansa Cargo" 
+  date: June 2023
+  context: IATA organized a hackathon sponsored by Lufthansa Cargo to demonstrate how aviation APIs and One Record can be leveraged in the logistics supply chain. As part of a team of 6 people, I participated in the development of a multimodal transport planning and tracking application.
+  responsibilities:
+    - Developed a front-end with React.
+  result:
+    - We demonstrated a comprehensive transport planning and analysis system involving multiple actors, and modes of transportation.
+  technologies:
+    - React
+    - Material UI
+    - MapBox
+
+- title: Multimodal Hackathon Amsterdam by IATA
+  date: May 2022
+  context: IATA organized a hackathon in partnership with DSCA to showcase how Maritime APIs and One Record can be utilized in the logistics supply chain. As part of a team of 7 people, I participated in the development of a marketplace aimed at connecting transport services needing cargo capacity with those that have empty containers to move.
+  responsibilities:
+    - Developed a front-end with React.
+  result:
+    - We presented a working app with mocked data that disaplyed how we could optimize transport of empty containers to limit polution and reduce cost. 
+    - Winner of the DSCA challenge.
+  technologies:
+    - React
+    - Material UI
+    - MapBox
+
+- title: Hackathon Twitch Channel Points 
+  date: March 2021
+  context: Twitch organized a hackathon to introduce its new API that allows interaction with streamers via channel points. As part of a team of 4 people, I participated in the development of an application that allows interaction with games or any type of tool.
+  responsibilities:
+    - Developed a server in Node.js with Express.js.
+    - Developed a front-end with React.
+    - Developed a Minecraft plugin in Java.
+  result:
+    - We developed an app that lets users modify the streamer's voice via MIDI signals and alter the Minecraft server environment using channel points.
+  technologies:
+    - Node.js
+    - Express.js
+    - React
+    - Material UI
+    - Java
+
+- title: Hackathon Traefik 
+  date: October 2020
+  context: Traefik organized a hackathon to highlight its plugin system. As part of a team of 2 people, I participated in the development of a plugin that allows a Docker service to "scale down" when not in use for a certain period and to restart as soon as a new request is received.
+  responsibilities:
+    - Developed a Traefik plugin in Go.
+    - Developed a Node.js service.
+  result:
+    - We developed an open-source project for managing container scaling through the Traefik plugin system. 
+    - Third place with the team "Containers on Demand"
+  technologies:
+    - Node.js
+    - Go
+    - Traefik
+
+- title: Hackathon IATA One Record September 2020
+  context: IATA organized its annual hackathon focused on its One Record standard, which aims to simplify and standardize communication in the air cargo industry. As part of a team of 6 people, I participated in the development of a "Track & Trace" application to demonstrate the tracking capabilities enabled by One Record, using the case of tracking a vaccine shipment.
+  responsibilities:
+    - Developed a React application.
+  result:
+    - We showcased an app that enables users to track their delivery through live event notifications and a map. 
+    - Winner of the "Track & Trace" challenge.
+  technologies:
+    - React
+    - Material UI

@@ -1,0 +1,14 @@
+- school: "Polytech'Nice, Sophia-Antipolis" 
+  dates: 
+    start: 2016
+    end: 2019 
+  diploma: "Diplôme d'ingénieur, spécialité Architecture logicielle"
+- school: "Polytech'Nice, Sophia-Antipolis" 
+  dates:
+    start: 2014
+    end: 2016 
+  diploma: "Classe préparatoire aux écoles d'ingénieur"
+- school: "Lycée Lucie Aubrac"
+  dates:
+    end: 2014
+  diploma: "Baccalauréat scientifique, spécialité mathématique - Mention Très bien"

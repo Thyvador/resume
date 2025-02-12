@@ -1,0 +1,170 @@
+---
+layout: default
+---
+
+<!DOCTYPE html>
+
+<h2>Professional Summary</h2>
+
+{% for line in site.summary %}
+  <p>{{ line }}</p>
+{% endfor %}
+
+<h2 id="work-experience">🧑‍💻 Work Experience</h2>
+
+{% for experience in site.data.work_experience %}
+
+<div class="company-group">
+  <h3> 🏢 {{ experience.company.name }}&nbsp;
+    <a about="_blank" href="{{ experience.company.link }}">🔗</a>
+  </h3>
+  {% for position in experience.positions %}
+  <div class="position-group">
+    <h4>🔹 {{ position.title }}</h4>
+
+    <p>
+      <div>📌 {{ position.location.city }}{% if position.location.country %}, {{ position.location.country }} {% endif %} </div>
+      <div>📆 {{ position.dates.start }} - {{ position.dates.end }}</div>
+      <div>📁 Project: 
+        {{ position.project.name }} 
+          {% if position.project.for %} 
+            &nbsp;(for {{ position.project.for }})
+          {% endif %}
+      </div>
+    </p>
+    
+    {% if position.context %}
+    <div>
+      <b>Context</b>: 
+      {% for contextEntry in position.context %}
+        <p> {{ contextEntry }} </p>
+      {% endfor %}
+    </div>
+    {% endif %}
+    {% if position.objectives %}
+    <div>
+      <b>Objectives</b>: 
+        {% for objective in position.objectives %}
+          <p>{{ objective }}</p>
+        {% endfor %}
+    </div>
+    {% endif %}
+    <div>
+      <b>Responsibilities</b>: 
+      <ul>
+        {% for responsibility in position.responsibilities %}
+          <li>{{ responsibility }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div>
+      <b>Technologies</b>: 
+      <ul>
+        {% for technology in position.technologies %}
+          <li> 
+            {% if technology.important %} <b> {% endif %}
+            {{ technology.name }} {% if technology.details %} ({{ technology.details }}) {% endif %}
+            {% if technology.important %} </b> {% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+{% endfor %}
+</div>
+
+{% endfor %}
+
+<h2 id="education">📚 Education</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>School</th>
+      <th>Dates</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for entry in site.data.education %}
+      <tr>
+        <td> {{ entry.school }} </td>
+        <td>
+          {% if entry.dates.start %}
+            {{ entry.dates.start }}&nbsp;-&nbsp;
+          {% endif %}
+          {{ entry.dates.end }} 
+        </td>
+        <td>{{ entry.diploma }} </td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+
+<h2 id="achievements">🏆 Achievements</h2>
+
+{% for achievement in site.data.achievements %}
+<div class="achievement-group">
+  <h3> 🔹 {{ achievement.title }} </h3>
+
+  <p> 📆 {{ achievement.date }} </p>
+
+  <div>
+    <b>Context</b>: 
+    {% for contextEntry in achievement.context %}
+      <p> {{ contextEntry }} </p>
+    {% endfor %}
+  </div>
+  <div>
+    <b>Responsibilities</b>: 
+    <ul>
+      {% for responsibility in achievement.responsibilities %}
+        <li>{{ responsibility }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div>
+    <b>Result</b>: 
+    {% for contextEntry in achievement.context %}
+      <p> {{ contextEntry }} </p>
+    {% endfor %}
+  </div>
+  <div>
+    <b>Technologies</b>: 
+    <ul>
+      {% for technology in achievement.technologies %}
+        <li> 
+          {% if technology.important %} <b> {% endif %}
+          {{ technology }} {% if technology.details %} ({{ technology.details }}) {% endif %}
+          {% if technology.important %} </b> {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+
+{%- comment -%} TODO : add separator {%- endcomment -%}
+
+{% endfor %}
+
+<h2 id="training-certifications">🏫 Trainings and Certifications</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Date</th>
+      <th>Title</th>
+      <th>Descrption</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for entry in site.data.training_and_certifications %}
+    <tr>
+      <td> {{ entry.date }} </td>
+      <td>{{ entry.title }} </td>
+      <td>{{ entry.description }} </td>
+    </tr>
+    {% endfor %}
+  <tbody>
+</table>

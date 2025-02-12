@@ -1,0 +1,245 @@
+- company: 
+    name: "Blueberry Digital Services"
+    link: "https://www.blueberryds.com/website2/"
+  positions:
+    - title: "Software & DevOps Senior Engineer"
+      location: 
+        city: Levallois-Perret
+        country: France
+      dates:
+        start: "July 2024"
+        end: "Today"
+      project: 
+        name: Confidential
+        for: Geodis
+      context:
+        - "Geodis is a global logistics company. The project is confidential."
+      objectives: 
+        - Confidential project.
+      responsibilities:
+        - "Development of a REST API including notions such as AuditTrail, Versioning, and Authorization Control Lists"
+        - "Automation of the build and deployment process using GitlabCI"
+      technologies:
+        - name: Java Spring Boot
+          important: true
+        - name: JavaScript
+          details: NodeJS, ReactJS, Fastify, VueJS
+        - name: PostgreSQL 
+        - name: Redis
+        - name: Kafka
+        - name: ElasticSearch
+        - name: GitlabCI
+        - name: Kubernetes
+          details: Openshift
+        - name: ArgoCD
+
+    - title: "Software & DevOps Engineer + Scrum Master" 
+      location:
+        city: Mougin
+        country: France
+      dates:
+        start: "Mars 2023" 
+        enc: "June 2024"
+      project: 
+        name: META
+        for: Orange
+      objectives:
+        - "Developed a data aggregation tool that enables the integration of data from numerous Orange partners into a single unified format."
+      context: 
+        - "In order to provide a consistent data format to the many teams developing its web portals and TV services, Orange requires a tool that can collect, transform, and standardize the data provided by its numerous partners."
+      responsibilities:
+        - Continuation of previous tasks
+        - Supporting the team in adopting Scrum best practices
+
+    - title: "Software & DevOps Engineer" 
+      location:
+        city: Mougin
+        country: France
+      dates:
+        start: "August 2021" 
+        enc: "March 2023"
+      project: 
+        name: META
+        for: Orange
+      objectives:
+        - "Developed a data aggregation tool that enables the integration of data from numerous Orange partners into a single unified format."
+      context:
+        - To offer a consistent data format to the various teams developing its web portals and TV services, Orange needed a tool that could collect, transform, and standardize the data provided by its numerous partners.
+      Responsibilities:
+        - Developed new data collection, transformation, and aggregation services to integrate new partners into Orange's catalog.
+        - Maintained and modernized existing services
+        - Fixed bugs in legacy services (Java or PHP).
+        - Upgraded SpringBoot from version 2 to 3.
+        - Maintained and modernized back-office user interfaces.
+        - Fixed bugs in legacy UIs using jQuery.
+        - Migrated a UI from jQuery to React.
+      Technologies:
+        - name: Java Spring Boot
+          important: true
+        - name: PHP
+        - name: JavaScript
+        - name: jQuery
+        - name: React
+        - name: MySQL
+        - name: ElasticSearch
+        - name: GitlabCI
+        - name: Docker Swarm
+        - name: Kubernetes
+        - name: RabbitMQ
+        - name: Vault
+          details: by HashiCorp
+      
+- company: 
+    name: "Supralog"
+    link: "https://www.supralog.com/"
+  positions:
+    - title: "Software & DevOps Engineer"
+      location: 
+        city: Antibe
+        country: France
+      dates:
+        start: "December 2020"
+        end: "August 2021"
+      project: 
+        name: SDL - Confidential
+        for: GEODIS
+      objectives:
+        - Developed a Proof of Concept (POC) for Geodis.
+      context:
+        - Confidential project.
+      responsibilities:
+        - Developed a Java Spring Boot application utilizing semantic web to manipulate "Linked Data."
+        - Developed a front-end in React to demonstrate the use of the developed backend application.
+      technologies:
+        - name: Java Spring Boot
+          important: true
+        - name: PostgreSQL
+        - name: React
+        - name: Material UI
+        - name: Azure
+        - name: Azure DevOps
+    
+    - title: Software & DevOps Engineer
+      location:
+        city: Antibe
+        country: France
+      dates:
+        start: "September 2019" 
+        end: "December 2020"
+      project: 
+        name: Competition Management Solution
+        for: FFBAD (French Badminton Federation)
+      objectives:
+        - Developed a solution for organizing and managing Badminton competitions.
+      context:
+        - The French Badminton Federation wanted to renew its competition management solution developed over 20 years ago.
+        - As part of a team of 3 developers, alongside a Product Owner and an experienced architect, I participated in the design and development of this application.
+      responsibilities:
+        - Developed a backend application in Node.js.
+        - Developed a REST API with Express.js.
+        - Interfaced with FFBAD's APIs.
+        - Generated PDFs.
+        - Automated email sending.
+        - Developed a desktop client with Electron.js.
+        - Developed the graphical interface in React.
+        - Enabled real-time communication between various clients on the local network via sockets.
+        - Implemented "auto-discovery" of other clients on the local network.
+        - "Set up DevOps tools: CI/CD (Jenkins), semantic versioning, etc."
+      results: 
+        - Developed a user-friendly application that simplifies the management of Badminton competitions.
+      technologies: 
+        - name: Node.js
+          important: true
+        - name: Electron
+        - name: React
+          important: true
+        - name: PostgreSQL
+        - name: Jenkins
+        - name: Semantic Release
+        - name: Traefik
+    
+    - title: Software & DevOps Engineer Intern
+      location: 
+        city: Antibe
+        country: France
+      dates: 
+        start: March 2019
+        end: September 2019
+      project: 
+        name: Monitoring Tool
+      objectives:
+        - Implemented a generic monitoring tool for Supralog projects.
+      context:
+        - As part of the "DevOps" team, I participated in setting up a cross-functional monitoring tool for the various Supralog projects and teams. 
+        - This tool aimed to enable the monitoring of platforms and applications.
+      responsibilities:
+        - Set up a monitoring stack based on InfluxDB.
+        - Exported data via Telegraf.
+        - Stored time-series data in InfluxDB.
+        - Displayed metrics in Grafana.
+        - Set up alerts via Kapacitor.
+      results:
+        - Developed a user-friendly application that simplifies the management of Badminton competitions.
+      technologies:
+        - name: Telegraf
+        - name: Grafana
+          important: true
+        - name: InfluxDB
+          important: true
+        - name: Kapacitor
+        - name: Prometheus
+
+- company: 
+    name: IAS
+    link: "https://iasgroup.io/"
+  positions:
+    - title: Full-Stack Developer Intern
+      location:
+        city: Laudun-l'Ardoise
+        country: France
+      dates:
+        start: July 2018
+        end: August 2018
+      project: 
+        name: ERP Development
+      objectives:
+        - Enhancements and feature additions for an ERP (Enterprise Resource Planning) system.
+      context:
+        - I participated in the development of an ERP for companies in the nuclear industry.
+      responsibilities:
+        - Added billing functionality.
+        - Added functionality for precise tracking of work hours under ionizing radiation.
+        - Improved performance on existing pages.
+        - Added tests to the backend of the application.
+      results:
+        - Deployed the developed features to production, and the functionalities are now in use within the company.
+      technologies:
+        - name: PHP (Symfony)
+        - name: React
+
+- company: 
+    name: Auxitec (Artelia Group)
+    link: "https://www.arteliagroup.com/fr/"
+  positions:
+    - title: Full-Stack Developer Intern
+      location: 
+        city: Pierrelatte
+        country: France
+      dates:
+        start: July 2017
+        end: August 2017
+      project: 
+        name: Project Management Tool POC
+      objectives: 
+        - Developed a POC for a project management tool.
+      context: 
+        - Based on a requirements definition established in collaboration with the agency director, I independently developed a POC.
+      responsibilities:
+        - Requirements definition.
+        - Full-stack application development.
+      results:
+        - Developed a POC that allowed the agency to justify additional costs for the full development of such an application.
+      technologies:
+        - name: PHP (Laravel)
+        - name: JavaScript
+        - name: SQL
