@@ -6,18 +6,31 @@ layout: default
 
 I have been a full-stack software development engineer since 2019. In today's tech landscape, I believe that DevOps and Clean Code principles are inseparable from our role as developers. Driven by a passion for challenges and competition, I am eager to work on stimulating projects that offer opportunities for daily learning and personal growth.
 
-## Work Experience
+## 🧑‍💻 Work Experience
 
+#### 🏢 Blueberry Digital Services
 
-### Blueberry Digital Services : September 2021 - Today
-
-#### Software & DevOps Senior Engineer : Jully 2024 - Today
+#### 🔹 Software & DevOps Senior Engineer
+ 
+- 📌 Levallois-Perret, France
+- 📆 Jully 2024 - Today
 
 **Project:** Confidential (Geodis)
 
+**Responsibilities:**
+
+- Development of a REST API including notions such as AuditTrail, Versioning, and Authorization Control Lists
+- Automation of the build and deployment process using GitlabCI
+- 
+
+**Technologies:** Java Spring Boot, JavaScript (NodeJS, ReactJS, Fastify, VueJS), PostgreSQL, Redis, Kafka, ElasticSearch, GitlabCI, Kubernetes (Openshift), ArgoCD
+
 ---
 
-#### Software & DevOps Engineer & Scrum Master : Mars 2023 - June 2024
+#### 🔹 Software & DevOps Engineer + Scrum Master 
+
+- 📌 Mougin, France
+- 📆 Mars 2023 - June 2024
 
 **Poject:** META (Orange)
 
@@ -32,7 +45,10 @@ I have been a full-stack software development engineer since 2019. In today's te
 
 ---
 
-#### Software & DevOps Engineer: August 2021 - March 2023
+#### 🔹 Software & DevOps Engineer
+
+- 📌 Mougin, France
+- 📆 August 2021 - March 2023
 
 **Project:** META (Orange)
 
@@ -54,9 +70,12 @@ I have been a full-stack software development engineer since 2019. In today's te
 
 ---
 
-### Supralog: March 2019 – August 2021
+### 🏢 Supralog
 
-#### Software & DevOps Engineer: December 2020 - August 2021**
+#### 🔹 Software & DevOps Engineer
+
+- 📌 Antibe, France
+- 📆 December 2020 - August 2021
 
 **Project:** Confidential Project (Client: GEODIS)
 
@@ -73,7 +92,10 @@ I have been a full-stack software development engineer since 2019. In today's te
 
 ---
 
-**Software & DevOps Engineer: September 2019 - December 2020**
+#### 🔹 Software & DevOps Engineer
+
+- 📌 Antibe, France
+- 📆 September 2019 - December 2020
 
 **Project:** FFBAD
 
@@ -101,7 +123,10 @@ I have been a full-stack software development engineer since 2019. In today's te
 
 ---
 
-**Software & DevOps Engineer Intern: March 2019 - September 2019**
+#### 🔹 Software & DevOps Engineer Intern
+
+- 📌 Antibe, France
+- 📆 March 2019 - September 2019
 
 **Project:** Monitoring Tools
 
@@ -124,9 +149,13 @@ I have been a full-stack software development engineer since 2019. In today's te
 
 ---
 
-**IAS, Laudun - L’Ardoise: July 2018 - August 2018**
+### 🏢 IAS
 
-**Full-Stack Developer Intern**
+#### 🔹 Full-Stack Developer Intern  
+
+- 📌 Laudun-l'Ardoise, France
+- 📆 July 2018 - August 2018
+
 
 **Project:** ERP Development
 
@@ -147,7 +176,12 @@ I have been a full-stack software development engineer since 2019. In today's te
 
 ---
 
-**Auxitec, Pierrelatte: July 2017 - August 2017**
+### 🏢 Auxitec
+
+#### 🔹 Full-Stack Developer Intern
+
+- 📌 Pierrelatte, France
+- 📆 July 2017 - August 2017
 
 **Full-Stack Developer Intern**
 
@@ -169,7 +203,7 @@ I have been a full-stack software development engineer since 2019. In today's te
 ---
 
 
-## Education 
+## 📚 Education
 
 | School                          | Dates     | Description                                                            |
 | ------------------------------- | --------- | ---------------------------------------------------------------------- |
@@ -178,9 +212,11 @@ I have been a full-stack software development engineer since 2019. In today's te
 | Lycée Lucie Aubrac              | 2014      | Baccalauréat scientifique, spécialité mathématique - Mention Très bien |
 
 
-## Achievements 
+## 🏆 Achievements 
 
-### IATA ONE Record Hackathon – hosted by Lufthansa Cargo - June 2023
+#### 🔹 IATA ONE Record Hackathon – hosted by Lufthansa Cargo 
+
+📆 June 2023
 
 **Context:** IATA organized a hackathon sponsored by Lufthansa Cargo to demonstrate how aviation APIs and One Record can be leveraged in the logistics supply chain. As part of a team of 6 people, I participated in the development of a multimodal transport planning and tracking application.
 
@@ -188,13 +224,15 @@ I have been a full-stack software development engineer since 2019. In today's te
 
 - Developed a front-end with React.
 
-**Result:** -
+**Result:** We demonstrated a comprehensive transport planning and analysis system involving multiple actors, and modes of transportation.
 
 **Technologies:** React, Material UI, MapBox
 
 ---
 
-### Multimodal Hackathon Amsterdam by IATA - May 2022
+#### 🔹 Multimodal Hackathon Amsterdam by IATA
+
+📆 May 2022
 
 **Context:** IATA organized a hackathon in partnership with DSCA to showcase how Maritime APIs and One Record can be utilized in the logistics supply chain. As part of a team of 7 people, I participated in the development of a marketplace aimed at connecting transport services needing cargo capacity with those that have empty containers to move.
 
@@ -202,13 +240,15 @@ I have been a full-stack software development engineer since 2019. In today's te
 
 - Developed a front-end with React.
 
-**Result:** Winner of the DSCA challenge.
+**Result:** We presented a working app with mocked data that disaplyed how we could optimize transport of empty containers to limit polution and reduce cost. *Winner of the DSCA challenge*.
 
 **Technologies:** React, Material UI, MapBox
 
 ---
 
-### Hackathon Twitch Channel Points - March 2021
+#### 🔹 Hackathon Twitch Channel Points 
+
+📆 March 2021
 
 **Context:** Twitch organized a hackathon to introduce its new API that allows interaction with streamers via channel points. As part of a team of 4 people, I participated in the development of an application that allows interaction with games or any type of tool.
 
@@ -218,12 +258,15 @@ I have been a full-stack software development engineer since 2019. In today's te
 - Developed a front-end with React.
 - Developed a Minecraft plugin in Java.
 
-**Result:** -
+**Result:** We developed an app that lets users modify the streamer's voice via MIDI signals and alter the Minecraft server environment using channel points.
+
 **Technologies:** Node.js, Express.js, React, Material UI, Java
 
 ---
 
-### Hackathon Traefik - October 2020
+#### 🔹 Hackathon Traefik 
+
+📆 October 2020
 
 **Context:** Traefik organized a hackathon to highlight its plugin system. As part of a team of 2 people, I participated in the development of a plugin that allows a Docker service to "scale down" when not in use for a certain period and to restart as soon as a new request is received.
 
@@ -232,13 +275,13 @@ I have been a full-stack software development engineer since 2019. In today's te
 - Developed a Traefik plugin in Go.
 - Developed a Node.js service.
 
-**Result:** Third place with the team "Containers on Demand."
+**Result:** We developed an open-source project for managing container scaling through the Traefik plugin system. *Third place with the team "Containers on Demand"*.
 
 **Technologies:** Node.js, Go, Traefik
 
 ---
 
-### Hackathon IATA One Record - September 2020
+#### 🔹 Hackathon IATA One Record September 2020
 
 **Context:** IATA organized its annual hackathon focused on its One Record standard, which aims to simplify and standardize communication in the air cargo industry. As part of a team of 6 people, I participated in the development of a "Track & Trace" application to demonstrate the tracking capabilities enabled by One Record, using the case of tracking a vaccine shipment.
 
@@ -246,14 +289,14 @@ I have been a full-stack software development engineer since 2019. In today's te
 
 - Developed a React application.
 
-**Result:** Winner of the "Track & Trace" challenge.
+**Result:** We showcased an app that enables users to track their delivery through live event notifications and a map. *Winner of the "Track & Trace" challenge*.
 
 **Technologies:** React, Material UI
 
-## Formations & Certifications
+## 🏫 Formations & Certifications
 
-| Date | Title                      | Description |
-| ---- | -------------------------- | ----------- |
-| 2023 | Formation Scrum Master     |             |
-| 2020 | Formation Kubernetes       |             |
-| 2019 | Formation Clean code & TDD |             |
+| Date | Title                     | Description                                                       |
+| ---- | ------------------------- | ----------------------------------------------------------------- |
+| 2023 | Scrum Master training     |                                                                   |
+| 2020 | Kubernetes training       | Basics of K8s, how to deploy and manage software in a K8s cluster |
+| 2019 | Clean code & TDD training | TDD & how to use it. Clean code best practices                    |
