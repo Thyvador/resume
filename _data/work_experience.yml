@@ -39,14 +39,14 @@
         country: France
       dates:
         start: "Mars 2023" 
-        enc: "June 2024"
+        end: "June 2024"
       project: 
         name: META
         for: Orange
       objectives:
         - "Developed a data aggregation tool that enables the integration of data from numerous Orange partners into a single unified format."
       context: 
-        - "In order to provide a consistent data format to the many teams developing its web portals and TV services, Orange requires a tool that can collect, transform, and standardize the data provided by its numerous partners."
+        - "In order to provide a consistent data format to the many teams developing its web portals and TV services, Orange requires a solution that can collect, transform, and standardize the data provided by its numerous partners."
       responsibilities:
         - Continuation of previous tasks
         - Supporting the team in adopting Scrum best practices
@@ -65,7 +65,7 @@
         - "Developed a data aggregation tool that enables the integration of data from numerous Orange partners into a single unified format."
       context:
         - To offer a consistent data format to the various teams developing its web portals and TV services, Orange needed a tool that could collect, transform, and standardize the data provided by its numerous partners.
-      Responsibilities:
+      responsibilities:
         - Developed new data collection, transformation, and aggregation services to integrate new partners into Orange's catalog.
         - Maintained and modernized existing services
         - Fixed bugs in legacy services (Java or PHP).
@@ -73,13 +73,12 @@
         - Maintained and modernized back-office user interfaces.
         - Fixed bugs in legacy UIs using jQuery.
         - Migrated a UI from jQuery to React.
-      Technologies:
+      technologies:
         - name: Java Spring Boot
           important: true
         - name: PHP
         - name: JavaScript
-        - name: jQuery
-        - name: React
+          details: jQuery, ReactJs
         - name: MySQL
         - name: ElasticSearch
         - name: GitlabCI
@@ -114,8 +113,8 @@
         - name: Java Spring Boot
           important: true
         - name: PostgreSQL
-        - name: React
-        - name: Material UI
+        - name: JavaScript 
+          details: ReactJs, Material UI
         - name: Azure
         - name: Azure DevOps
     
@@ -150,8 +149,8 @@
       technologies: 
         - name: Node.js
           important: true
-        - name: Electron
-        - name: React
+        - name: JavaScript
+          details: ReactJs, Electron
           important: true
         - name: PostgreSQL
         - name: Jenkins
@@ -160,7 +159,7 @@
     
     - title: Software & DevOps Engineer Intern
       location: 
-        city: Antibe
+        city: Antibes
         country: France
       dates: 
         start: March 2019
@@ -181,12 +180,15 @@
       results:
         - Developed a user-friendly application that simplifies the management of Badminton competitions.
       technologies:
-        - name: Telegraf
         - name: Grafana
           important: true
+        - name: Telegraf
+          details: by InfluxData
         - name: InfluxDB
+          details: by InfluxData
           important: true
         - name: Kapacitor
+          details: by InfluxData
         - name: Prometheus
 
 - company: 
@@ -215,7 +217,8 @@
         - Deployed the developed features to production, and the functionalities are now in use within the company.
       technologies:
         - name: PHP (Symfony)
-        - name: React
+        - name: JavaScript 
+          details: React
 
 - company: 
     name: Auxitec (Artelia Group)
