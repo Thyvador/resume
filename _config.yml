@@ -3,8 +3,8 @@ plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 
 logo: /assets/img/profile_picture.jpg
-title: Alexandre H.
-description: Fullstack software developper
+title: Alexandre HILTCHER
+description: Senior software engineer
 
 summary:
   - I have been a full-stack software development engineer since 2019, with a strong commitment to software quality as my top priority. 
