@@ -1,7 +1,7 @@
 - company:
     name: Blueberry Digital Services
     link: https://www.blueberryds.com/website2/
-    positions:
+  positions:
     - title: Software & DevOps Senior Engineer
       location:
         city: Levallois-Perret
@@ -15,19 +15,21 @@
       context:
         - GEODIS is a leading logistics provider offering services such as freight management for air, sea, and land transport, as well as inventory and order management. The project details are confidential.
       objectives:
-        - Worked on a confidential project.
+        - Working on a confidential project.
       responsibilities:
-        - Defined and documented functional and technical specifications with UML diagrams using Mermaid.
-        - Defined OpenAPI specifications for application component APIs.
-        - Automated build and deployment processes with GitLab CI.
-        - Deployed application components on Kubernetes using Kustomize and ArgoCD.
-        - Developed a REST API with features such as Audit Trail, Versioning, and Access Control Lists.
+        - Defining and documenting functional and technical specifications with UML diagrams using Mermaid.
+        - Defining OpenAPI specifications for application component APIs.
+        - Automating build and deployment processes with GitLab CI.
+        - Deploying application components on Kubernetes using Kustomize and ArgoCD.
+        - Developing a REST API with features such as Audit Trail, Versioning, and Access Control Lists.
       technologies:
         - name: Java
           details: Spring Boot
           important: true
-        - name: JavaScript
-          details: NodeJS, ReactJS, Fastify, VueJS
+        - name: JavaScript Backend
+          details: NodeJS, Fastify
+        - name: JavaScript Frontend
+          details: ReactJS, VueJS
         - name: PostgreSQL
         - name: ElasticSearch
         - name: Redis
@@ -80,7 +82,8 @@
         - Debugged and resolved issues in legacy services built with Java 8 and PHP 7.
         - Fixed bugs in legacy back-office systems using jQuery.
       technologies:
-        - name: Java Spring Boot
+        - name: Java
+          details: Spring Boot
           important: true
         - name: PHP
         - name: JavaScript
@@ -97,7 +100,7 @@
 - company:
     name: Supralog
     link: https://www.supralog.com/
-    positions:
+  positions:
     - title: Software & DevOps Engineer
       location:
         city: Antibes
@@ -116,7 +119,8 @@
         - Developed a Java Spring Boot application leveraging semantic web technologies to manipulate Linked Data.
         - Built a React front-end to showcase and interact with the backend application.
       technologies:
-        - name: Java Spring Boot
+        - name: Java
+          details: Spring Boot
           important: true
         - name: PostgreSQL
         - name: JavaScript
@@ -153,9 +157,10 @@
       results:
         - Delivered a user-friendly application that simplified badminton competition management.
       technologies:
-        - name: Node.js
+        - name: JavaScript Backend
+          details: Node.js, Express.js
           important: true
-        - name: JavaScript
+        - name: JavaScript Frontend
           details: ReactJS, Electron
           important: true
         - name: PostgreSQL
@@ -185,11 +190,11 @@
       technologies:
         - name: Grafana
           important: true
-        - name: Telegraf
-          details: by InfluxData
         - name: InfluxDB
           details: by InfluxData
           important: true
+        - name: Telegraf
+          details: by InfluxData
         - name: Kapacitor
           details: by InfluxData
         - name: Prometheus
@@ -197,7 +202,7 @@
 - company:
     name: IAS
     link: "https://iasgroup.io/"
-    positions:
+  positions:
     - title: Full-Stack Developer Intern
       location:
         city: Laudun-l'Ardoise
@@ -217,14 +222,15 @@
         - Improved performance on existing pages.
         - Added tests to the backend.
       technologies:
-        - name: PHP (Symfony)
+        - name: PHP
+          details: Symfony
         - name: JavaScript
-          details: React
+          details: ReactJS
 
 - company:
     name: Auxitec (Artelia Group)
     link: "https://www.arteliagroup.com/fr/"
-    positions:
+  positions:
     - title: Full-Stack Developer Intern
       location:
         city: Pierrelatte
@@ -240,6 +246,7 @@
         - Defined requirements.
         - Developed a full-stack application.
       technologies:
-        - name: PHP (Laravel)
+        - name: PHP
+          details: Laravel
         - name: JavaScript
         - name: SQL
