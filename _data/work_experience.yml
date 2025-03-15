@@ -60,6 +60,21 @@
         - Guided the team in adopting and implementing Scrum best practices.
         - Modernized legacy back-office user interfaces by migrating to React.js.
         - Upgraded Java services from Java 8, Spring Boot 2 to Java 21, Spring Boot 3.
+      technologies:
+        - name: Java
+          details: Spring Boot
+          important: true
+        - name: PHP
+        - name: JavaScript
+          details: jQuery, ReactJS
+        - name: MySQL
+        - name: ElasticSearch
+        - name: GitLab CI
+        - name: Docker Swarm
+        - name: Kubernetes
+        - name: RabbitMQ
+        - name: Vault
+          details: by HashiCorp
 
     - title: Software & DevOps Engineer
       location:
@@ -198,6 +213,7 @@
         - name: Kapacitor
           details: by InfluxData
         - name: Prometheus
+        - name: Docker
 
 - company:
     name: IAS
