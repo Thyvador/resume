@@ -15,7 +15,7 @@
       context:
         - GEODIS is a leading logistics provider offering services such as freight management for air, sea, and land transport, as well as inventory and order management. The project details are confidential.
       objectives:
-        - Working on a confidential project.
+        - GEODIS is developing a unified customer portal to streamline access to all group services and standardize the customer experience across its business units. I am involved in designing and developing group services and APIs that connect the portal with existing systems.
       responsibilities:
         - Defining and documenting functional and technical specifications with UML diagrams using Mermaid.
         - Defining OpenAPI specifications for application component APIs.
@@ -124,10 +124,10 @@
         start: December 2020
         end: August 2021
       project:
-        name: SDL - Confidential
+        name: SDL (Shared Data Language)
         for: Geodis
       objectives:
-        - Developed a Proof of Concept (PoC) for Geodis.
+        - Developed a Proof of Concept for GEODIS to create a unification layer, designed to establish a common language for seamless data exchange between various systems.
       context:
         - GEODIS is a leading logistics provider offering freight management and inventory solutions. Project details are confidential.
       responsibilities:
