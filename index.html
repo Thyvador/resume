@@ -35,7 +35,7 @@ layout: default
     
     {% if position.context %}
     <div>
-      <b>Context</b>: 
+      <b>Context</b>:
       {% for contextEntry in position.context %}
         <p> {{ contextEntry }} </p>
       {% endfor %}
@@ -57,11 +57,25 @@ layout: default
         {% endfor %}
       </ul>
     </div>
+    {% if position.environment %}
+      <div>
+        <b>Environment</b>:
+        <ul>
+          {% for environmentEntry in position.environment %}
+          <li>
+            {% if environmentEntry.important %} <b> {% endif %}
+            {{ environmentEntry.name }}{% if environmentEntry.details %}: {{ environmentEntry.details }} {% endif %}
+            {% if environmentEntry.important %} </b> {% endif %}
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endif %}
     <div>
-      <b>Technologies</b>: 
+      <b>Technologies</b>:
       <ul>
         {% for technology in position.technologies %}
-          <li> 
+          <li>
             {% if technology.important %} <b> {% endif %}
             {{ technology.name }} {% if technology.details %} ({{ technology.details }}) {% endif %}
             {% if technology.important %} </b> {% endif %}
@@ -111,7 +125,7 @@ layout: default
   <p> 📆 {{ achievement.date }} </p>
 
   <div>
-    <b>Context</b>: 
+    <b>Context</b>:
     {% for contextEntry in achievement.context %}
       <p> {{ contextEntry }} </p>
     {% endfor %}

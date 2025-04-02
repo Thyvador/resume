@@ -22,6 +22,19 @@
         - Automating build and deployment processes with GitLab CI.
         - Deploying application components on Kubernetes using Kustomize and ArgoCD.
         - Developing a REST API with features such as Audit Trail, Versioning, and Access Control Lists.
+      environment:
+        - name: Agile Team
+        - name: API-First Approach
+          details: Prioritizing the design and definition of an API before developing the corresponding application, ensuring consistency, integration readiness, and reusability.
+        - name: Feature-Driven API Design
+          details: Features are translated into flow and data model diagrams, which are then used to build OpenAPI specs. These specs are validated and utilized for code generation.
+        - name: Domain Model-Centric Service Integration
+          details: Developing & maintaining a domain model using an ontology to establish a standardized and efficient framework for data exchange between services.
+        - name: Service Oriented Architecture
+        - name: Cloud Native
+        - name: Clean Code
+        - name: Test Driven Development
+        - name: Continuous Integration & Continuous Deployment
       technologies:
         - name: Java
           details: Spring Boot
@@ -36,6 +49,7 @@
         - name: Kafka
         - name: GitLab CI
         - name: Kustomize
+        - name: ontology
         - name: ArgoCD
         - name: Kubernetes
           details: OpenShift
@@ -60,6 +74,14 @@
         - Guided the team in adopting and implementing Scrum best practices.
         - Modernized legacy back-office user interfaces by migrating to React.js.
         - Upgraded Java services from Java 8, Spring Boot 2 to Java 21, Spring Boot 3.
+      environment:
+        - name: Scrum Team
+          details: Scrum team integrated in a SAFe train
+        - name: Event-Driven Data Pipeline Architecture
+          details: An architecture where services communicate via message queues and topics, enabling real-time, decoupled data processing and integration.
+        - name: Clean Code
+        - name: Test Driven Development
+        - name: Continuous Integration & Continuous Deployment
       technologies:
         - name: Java
           details: Spring Boot
@@ -96,6 +118,14 @@
         - Maintained and modernized existing services for improved performance and scalability.
         - Debugged and resolved issues in legacy services built with Java 8 and PHP 7.
         - Fixed bugs in legacy back-office systems using jQuery.
+      environment:
+        - name: Scrum Team
+          details: Scrum team integrated in a SAFe train
+        - name: Event-Driven Data Pipeline Architecture
+          details: An architecture where services communicate via message queues and topics, enabling real-time, decoupled data processing and integration.
+        - name: Clean Code
+        - name: Test Driven Development
+        - name: Continuous Integration & Continuous Deployment
       technologies:
         - name: Java
           details: Spring Boot
@@ -133,6 +163,11 @@
       responsibilities:
         - Developed a Java Spring Boot application leveraging semantic web technologies to manipulate Linked Data.
         - Built a React front-end to showcase and interact with the backend application.
+      environment:
+        - name: Kanban methodology
+        - name: Clean Code
+        - name: Test Driven Development
+        - name: Continuous Integration & Continuous Deployment
       technologies:
         - name: Java
           details: Spring Boot
@@ -171,6 +206,11 @@
         - Set up DevOps tools, including CI/CD pipelines (Jenkins) and semantic versioning.
       results:
         - Delivered a user-friendly application that simplified badminton competition management.
+      environment:
+        - name: Scrum Team
+        - name: Clean Code
+        - name: Test Driven Development
+        - name: Continuous Integration & Continuous Deployment
       technologies:
         - name: JavaScript Backend
           details: Node.js, Express.js
