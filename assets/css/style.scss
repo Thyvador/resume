@@ -3,6 +3,34 @@
 
 @import "{{ site.theme }}";
 
+@media print {
+  @page { margin: 0.6in; }
+  footer {
+    display: none;
+  }
+
+  body {
+    font-size: 12pt;
+    line-height: 1.5;
+  }
+
+  .site-logo {
+    width: 25%;
+  }
+
+  .presentation {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .page-break {
+    page-break-before: always;
+  }
+
+}
+
 .social-networks-links {
   list-style: none;
   height: 40px;
