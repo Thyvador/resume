@@ -10,29 +10,29 @@ layout: default
   <p>{{ line }}</p>
 {% endfor %}
 
-<h2 id="work-experience" class="page-break">🧑‍💻 Work Experience</h2>
+<h2 id="work-experience" class="page-break-before">🧑‍💻 Work Experience</h2>
 
 {% for experience in site.data.work_experience %}
 
-<div class="company-group">
+<div class="company-group space-before">
   <h3> 🏢 {{ experience.company.name }}&nbsp;
     <a about="_blank" href="{{ experience.company.link }}">🔗</a>
   </h3>
   {% for position in experience.positions %}
-  <div class="position-group">
+  <div class="position-group space-before">
     <h4>🔹 {{ position.title }}</h4>
 
     <p>
       <div>📌 {{ position.location.city }}{% if position.location.country %}, {{ position.location.country }} {% endif %} </div>
       <div>📆 {{ position.dates.start }} - {{ position.dates.end }}</div>
-      <div>📁 Project: 
-        {{ position.project.name }} 
-          {% if position.project.for %} 
+      <div>📁 Project:
+        {{ position.project.name }}
+          {% if position.project.for %}
             &nbsp;(for {{ position.project.for }})
           {% endif %}
       </div>
     </p>
-    
+
     {% if position.context %}
     <div>
       <b>Context</b>:
@@ -43,14 +43,14 @@ layout: default
     {% endif %}
     {% if position.objectives %}
     <div>
-      <b>Objectives</b>: 
+      <b>Objectives</b>:
         {% for objective in position.objectives %}
           <p>{{ objective }}</p>
         {% endfor %}
     </div>
     {% endif %}
     <div>
-      <b>Responsibilities</b>: 
+      <b>Responsibilities</b>:
       <ul>
         {% for responsibility in position.responsibilities %}
           <li>{{ responsibility }}</li>
@@ -89,7 +89,7 @@ layout: default
 
 {% endfor %}
 
-<h2 id="education" class="page-break">📚 Education</h2>
+<h2 id="education" class="page-break-before">📚 Education</h2>
 
 <table>
   <thead>
@@ -107,7 +107,7 @@ layout: default
           {% if entry.dates.start %}
             {{ entry.dates.start }}&nbsp;-&nbsp;
           {% endif %}
-          {{ entry.dates.end }} 
+          {{ entry.dates.end }}
         </td>
         <td>{{ entry.diploma }} </td>
       </tr>
@@ -116,10 +116,10 @@ layout: default
 </table>
 
 
-<h2 id="achievements" class="page-break">🏆 Achievements</h2>
+<h2 id="achievements" class="page-break-before">🏆 Achievements</h2>
 
 {% for achievement in site.data.achievements %}
-<div class="achievement-group">
+<div class="achievement-group space-before">
   <h3> 🔹 {{ achievement.title }} </h3>
 
   <p> 📆 {{ achievement.date }} </p>
@@ -131,7 +131,7 @@ layout: default
     {% endfor %}
   </div>
   <div>
-    <b>Responsibilities</b>: 
+    <b>Responsibilities</b>:
     <ul>
       {% for responsibility in achievement.responsibilities %}
         <li>{{ responsibility }}</li>
@@ -139,16 +139,16 @@ layout: default
     </ul>
   </div>
   <div>
-    <b>Result</b>: 
+    <b>Result</b>:
     {% for contextEntry in achievement.context %}
       <p> {{ contextEntry }} </p>
     {% endfor %}
   </div>
   <div>
-    <b>Technologies</b>: 
+    <b>Technologies</b>:
     <ul>
       {% for technology in achievement.technologies %}
-        <li> 
+        <li>
           {% if technology.important %} <b> {% endif %}
           {{ technology }} {% if technology.details %} ({{ technology.details }}) {% endif %}
           {% if technology.important %} </b> {% endif %}
@@ -162,7 +162,7 @@ layout: default
 
 {% endfor %}
 
-<h2 id="training-certifications" class="page-break">🏫 Trainings and Certifications</h2>
+<h2 id="training-certifications" class="page-break-before">🏫 Trainings and Certifications</h2>
 
 <table>
   <thead>
