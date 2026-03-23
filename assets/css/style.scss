@@ -296,6 +296,14 @@ body {
   font-size: 0.82rem;
 }
 
+/* highlight important technologies */
+.pill-list li.pill-important {
+  background: linear-gradient(90deg, #eaf6ff, #d7effc);
+  border-color: #9ec0dc;
+  font-weight: 700;
+  color: #174e70;
+}
+
 .compact-card {
   display: grid;
   gap: 0.9rem;

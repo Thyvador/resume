@@ -74,7 +74,7 @@ layout: default
               <h5>Technologies</h5>
               <ul class="pill-list">
                 {% for technology in position.technologies %}
-                  <li>{{ technology.name }}{% if technology.details %} ({{ technology.details }}){% endif %}</li>
+                  <li class="{% if technology.important %}pill-important{% endif %}">{{ technology.name }}{% if technology.details %} ({{ technology.details }}){% endif %}</li>
                 {% endfor %}
               </ul>
             </div>
