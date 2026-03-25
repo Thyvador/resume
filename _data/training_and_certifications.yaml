@@ -1,8 +1,9 @@
 - date: 2023
-  title: Scrum Master training
+  title: Professional Scrum Master™ (PSM I)
+  description: Completed comprehensive training covering the principles of Scrum and the role of the Scrum Master in enabling effective Agile teams.
 - date: 2020
-  title: Kubernetes training
-  description: Basics of K8s, how to deploy and manage software in a K8s cluster
+  title: Kubernetes for Developers
+  description: In-depth training on Kubernetes fundamentals, focusing on deploying, managing, and scaling containerized applications within a K8s cluster.
 - date: 2019
-  title: Clean code & TDD training
-  description: TDD & how to use it. Clean code best practices
+  title: Clean Code & Test-Driven Development (TDD) Workshop
+  description: Intensive workshop focused on applying Test-Driven Development (TDD) methodologies and adhering to Clean Code principles for creating maintainable and high-quality software.

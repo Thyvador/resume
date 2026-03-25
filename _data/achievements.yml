@@ -1,10 +1,10 @@
 - title: IATA ONE Record Hackathon – Hosted by Lufthansa Cargo
   date: June 2023
-  context: IATA, sponsored by Lufthansa Cargo, organized a hackathon to showcase how aviation APIs and One Record can enhance the logistics supply chain. As part of a team of six, I contributed to developing a multimodal transport planning and tracking application.
+  context: Participated in an IATA hackathon, sponsored by Lufthansa Cargo, focused on leveraging aviation APIs and the One Record standard to innovate the logistics supply chain. Contributed to a six-member team to develop a comprehensive multimodal transport planning and tracking application.
   responsibilities:
-    - Developed the front-end using React.
+    - Led the development of the user-facing front-end application using React.
   result:
-    - Demonstrated a comprehensive transport planning and analysis system involving multiple stakeholders and transportation modes.
+    - Successfully demonstrated a sophisticated transport planning and analysis system designed for multiple stakeholders across various transportation modes.
   technologies:
     - React
     - Material UI
@@ -12,11 +12,11 @@
 
 - title: Multimodal Hackathon Amsterdam – Organized by IATA
   date: May 2022
-  context: IATA, in collaboration with DSCA, hosted a hackathon to explore how Maritime APIs and One Record can improve logistics. As part of a team of seven, I helped develop a marketplace connecting transport services needing cargo capacity with providers having empty containers to move.
+  context: In a hackathon hosted by IATA and the DSCA, our seven-member team explored the integration of Maritime APIs with the One Record standard to enhance logistics. We designed and developed a marketplace to connect transport services with providers of empty container capacity.
   responsibilities:
-    - Developed the front-end using React.
+    - Engineered the front-end marketplace platform using React, focusing on an intuitive user experience.
   result:
-    - Presented a working prototype with simulated data demonstrating how optimizing empty container transport can reduce costs and pollution.
+    - Presented a functional prototype with simulated data, showcasing a significant reduction in costs and environmental impact by optimizing empty container transport.
     - Winner of the DSCA challenge.
   technologies:
     - React
@@ -25,13 +25,13 @@
 
 - title: Twitch Channel Points Hackathon
   date: March 2021
-  context: Twitch organized a hackathon to introduce its new API, enabling viewer interactions with streamers via channel points. In a team of four, I contributed to building an application allowing users to interact with games and other tools.
+  context: Participated in a Twitch-hosted hackathon to pioneer applications for its new Channel Points API. As part of a four-person team, we developed a solution to deepen viewer-streamer interaction within games and other tools.
   responsibilities:
-    - Developed a backend server using Node.js with Express.js.
-    - Built the front-end using React.
-    - Created a Minecraft plugin in Java.
+    - Engineered the backend server infrastructure using Node.js and Express.js.
+    - Constructed the interactive front-end application with React.
+    - Developed a custom Minecraft plugin in Java to facilitate in-game interactions.
   result:
-    - Developed an application enabling viewers to modify a streamer's voice using MIDI signals and alter the Minecraft server environment via channel points.
+    - Delivered a multi-faceted application enabling viewers to dynamically modify a streamer's voice via MIDI signals and directly influence the Minecraft server environment using Channel Points.
   technologies:
     - Node.js
     - Express.js
@@ -41,13 +41,13 @@
 
 - title: Traefik Hackathon
   date: October 2020
-  context: Traefik hosted a hackathon to highlight its plugin system. In a two-person team, I worked on developing a plugin that scales down a Docker service when inactive and restarts it upon receiving a new request.
+  context: In a hackathon hosted by Traefik to showcase its plugin system, our two-person team developed an innovative plugin to scale idle Docker services to zero and automatically restart them on-demand.
   responsibilities:
-    - Developed a Traefik plugin in Go.
-    - Built a supporting Node.js service.
+    - Authored a custom Traefik plugin using Go.
+    - Developed a complementary microservice with Node.js to manage service state.
   result:
-    - Created an open-source project enabling container auto-scaling via the Traefik plugin system.
-    - Achieved third place with the team "Containers on Demand."
+    - Successfully delivered an open-source project enabling on-demand container auto-scaling through the Traefik plugin system.
+    - Our team, "Containers on Demand," secured third place in the competition.
   technologies:
     - Node.js
     - Go
@@ -55,11 +55,11 @@
 
 - title: IATA ONE Record Hackathon – September 2020
   date: September 2020
-  context: IATA’s annual hackathon focused on its One Record standard, aiming to simplify and standardize communication in the air cargo industry. As part of a six-member team, I contributed to developing a "Track & Trace" application to demonstrate One Record’s tracking capabilities using a vaccine shipment as a case study.
+  context: Contributed to IATA's annual hackathon, which centered on the One Record standard for simplifying air cargo communication. Our six-member team developed a "Track & Trace" application, using a vaccine shipment case study to highlight the standard's powerful tracking capabilities.
   responsibilities:
-    - Developed the front-end using React.
+    - Led the design and development of the React-based front-end application.
   result:
-    - Showcased an application that enables users to track deliveries with live event notifications and real-time mapping.
+    - Presented a dynamic application allowing users to monitor deliveries with live event notifications and real-time map tracking.
     - Winner of the "Track & Trace" challenge.
   technologies:
     - React

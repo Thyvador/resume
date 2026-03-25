@@ -2,15 +2,15 @@
   dates:
     start: 2016
     end: 2019
-  diploma: Diplôme d'Ingénieur in Software Architecture (Master's degree)
+  diploma: Master's Degree (Diplôme d'Ingénieur) in Software Architecture
 
 - school: Polytech Nice Sophia, Sophia Antipolis
   dates:
     start: 2014
     end: 2016
-  diploma: Preparatory Class for Engineering Schools
+  diploma: Preparatory Program for French Engineering Schools (Classes Préparatoires)
 
 - school: Lycée Lucie Aubrac
   dates:
     end: 2014
-  diploma: Scientific Baccalaureate, Mathematics Specialization (Mention Très Bien)
+  diploma: Scientific Baccalaureate with a Specialization in Mathematics, Graduated with Highest Honors (Mention Très Bien)
