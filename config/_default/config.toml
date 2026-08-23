@@ -1,0 +1,8 @@
+baseURL = "https://thyvador.github.io/"
+defaultContentLanguage = "en"
+enableEmoji = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

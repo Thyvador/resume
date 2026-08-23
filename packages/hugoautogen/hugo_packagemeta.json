@@ -1,0 +1,23 @@
+{
+  "sum": "7178ef7655385aeb",
+  "dependencySources": {
+    "dependencies": {
+      "@fortawesome/fontawesome-free": "github.com/jpanther/congo/v2"
+    },
+    "devDependencies": {
+      "@tailwindcss/typography": "github.com/jpanther/congo/v2",
+      "chart.js": "github.com/jpanther/congo/v2",
+      "fuse.js": "github.com/jpanther/congo/v2",
+      "jsdom": "github.com/jpanther/congo/v2",
+      "katex": "github.com/jpanther/congo/v2",
+      "mermaid": "github.com/jpanther/congo/v2",
+      "prettier": "github.com/jpanther/congo/v2",
+      "prettier-plugin-go-template": "github.com/jpanther/congo/v2",
+      "prettier-plugin-tailwindcss": "github.com/jpanther/congo/v2",
+      "quicklink": "github.com/jpanther/congo/v2",
+      "rimraf": "github.com/jpanther/congo/v2",
+      "tailwindcss": "github.com/jpanther/congo/v2",
+      "vendor-copy": "github.com/jpanther/congo/v2"
+    }
+  }
+}

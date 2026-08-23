@@ -1,7 +1,5 @@
-.jekyll-cache/
-_site/
-.jekyll-metadata
-/.idea/
+public/
+resources/_gen/
+.hugo_build.lock
 
-vendor
-.bundle
+/.idea/

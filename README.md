@@ -1,22 +1,19 @@
 # Resume
 
-## How to run
+Personal resume website built with Hugo and the [Congo](https://github.com/jpanther/congo) theme.
 
-### Prerequisite
+## Run locally
+
+Install Hugo Extended, then run:
 
 ```bash
-sudo apt install -y build-essential ruby-dev libssl-dev zlib1g-dev
+hugo server
 ```
 
-## Install
+Open http://localhost:1313/.
+
+## Build
 
 ```bash
-bundle config set --local path 'vendor/bundle'
-bundle install
-```
-
-## Run
-
-```bash
-bundle exec jekyll serve --livereload
+hugo --gc --minify
 ```
