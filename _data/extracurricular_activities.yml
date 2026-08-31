@@ -1,4 +1,4 @@
-- title: IATA ONE Record Hackathon – Hosted by Lufthansa Cargo
+- title: IATA ONE Record Hackathon Frankfurt - Hosted by Lufthansa Cargo
   date: June 2023
   context: Participated in an IATA hackathon, sponsored by Lufthansa Cargo, focused on leveraging aviation APIs and the One Record standard to innovate the logistics supply chain. Contributed to a six-member team to develop a comprehensive multimodal transport planning and tracking application.
   responsibilities:
@@ -10,7 +10,7 @@
     - Material UI
     - MapBox
 
-- title: Multimodal Hackathon Amsterdam – Organized by IATA
+- title: IATA Multimodal Hackathon Amsterdam - Hosted by IATA
   date: May 2022
   context: In a hackathon hosted by IATA and the DSCA, our seven-member team explored the integration of Maritime APIs with the One Record standard to enhance logistics. We designed and developed a marketplace to connect transport services with providers of empty container capacity.
   responsibilities:
@@ -53,7 +53,7 @@
     - Go
     - Traefik
 
-- title: IATA ONE Record Hackathon – September 2020
+- title: IATA ONE Record Hackathon Online - Hosted by IATA
   date: September 2020
   context: Contributed to IATA's annual hackathon, which centered on the One Record standard for simplifying air cargo communication. Our six-member team developed a "Track & Trace" application, using a vaccine shipment case study to highlight the standard's powerful tracking capabilities.
   responsibilities:

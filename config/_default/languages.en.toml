@@ -1,0 +1,18 @@
+locale = "en"
+label = "English"
+direction = "ltr"
+weight = 1
+title = "Alexandre HILTCHER"
+
+[params]
+  description = "Alexandre HILTCHER, Junior Software Architect"
+
+[params.author]
+  name = "Alexandre HILTCHER"
+  headline = "Junior Software Architect"
+  image = "images/author.jpg"
+  links = [
+    { github = "https://github.com/Thyvador" },
+    { linkedin = "https://www.linkedin.com/in/alexandre-hiltcher" },
+    { email = "mailto:ahiltcher.pro@gmail.com"}
+  ]

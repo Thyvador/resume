@@ -1,0 +1,75 @@
+{{ $content := "## Work Experience\n\n" }}
+
+{{ range hugo.Data.work_experience }}
+  {{ $content = printf "%s### %s\n\n[Company website](%s)\n\n" $content .company.name .company.link }}
+  {{ range .positions }}
+    {{ $content = printf "%s#### %s | %s - %s\n\n**Location:** %s, %s  \n" $content .title .dates.start .dates.end .location.city .location.country }}
+    {{ with .project }}
+      {{ $content = printf "%s**Project:** %s" $content .name }}
+      {{ with .for }}{{ $content = printf "%s (for %s)" $content . }}{{ end }}
+      {{ $content = printf "%s\n\n" $content }}
+    {{ end }}
+    {{ with .context }}
+      {{ $content = printf "%s**Context:** %s\n\n" $content (index . 0) }}
+    {{ end }}
+    {{ with .objectives }}
+      {{ $content = printf "%s**Objectives:** %s\n\n" $content (index . 0) }}
+    {{ end }}
+    {{ with .responsibilities }}
+      {{ $content = printf "%s**Responsibilities:**\n\n" $content }}
+      {{ range . }}{{ $content = printf "%s- %s\n" $content . }}{{ end }}
+      {{ $content = printf "%s\n" $content }}
+    {{ end }}
+    {{ with .results }}
+      {{ $content = printf "%s**Result:** %s\n\n" $content (index . 0) }}
+    {{ end }}
+    {{ with .environment }}
+      {{ $content = printf "%s**Environment:**\n\n" $content }}
+      {{ range . }}{{ $content = printf "%s- **%s:** %s\n" $content .name .details }}{{ end }}
+      {{ $content = printf "%s\n" $content }}
+    {{ end }}
+    {{ with .technologies }}
+      {{ $content = printf "%s**Technologies:** " $content }}
+      {{ range $index, $technology := . }}
+        {{ if $index }}{{ $content = printf "%s, " $content }}{{ end }}
+        {{ $content = printf "%s%s" $content $technology.name }}
+        {{ with $technology.details }}{{ $content = printf "%s (%s)" $content . }}{{ end }}
+      {{ end }}
+      {{ $content = printf "%s.\n\n" $content }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ $content = printf "%s## Education\n\n" $content }}
+{{ range hugo.Data.education }}
+  {{ $content = printf "%s### %s\n\n**%v - %v**  \n%s\n\n" $content .school .dates.start .dates.end .diploma }}
+{{ end }}
+
+{{ $content = printf "%s## Extracurricular Activities\n\n" $content }}
+{{ range hugo.Data.extracurricular_activities }}
+  {{ $content = printf "%s### %s\n\n**%s**\n\n%s\n\n" $content .title .date .context }}
+  {{ with .responsibilities }}
+    {{ range . }}{{ $content = printf "%s- %s\n" $content . }}{{ end }}
+    {{ $content = printf "%s\n" $content }}
+  {{ end }}
+  {{ with .result }}
+    {{ range . }}{{ $content = printf "%s- %s\n" $content . }}{{ end }}
+    {{ $content = printf "%s\n" $content }}
+  {{ end }}
+  {{ with .technologies }}{{ $content = printf "%s**Technologies:** %s\n\n" $content (delimit . ", ") }}{{ end }}
+{{ end }}
+
+{{ $content = printf "%s## Trainings and Certifications\n\n" $content }}
+{{ range hugo.Data.training_and_certifications }}
+  {{ $content = printf "%s### %s\n\n**%v**  \n%s\n\n" $content .title .date .description }}
+{{ end }}
+
+{{ $page := dict
+  "content" (dict "mediaType" "text/markdown" "value" $content)
+  "kind" "page"
+  "params" (dict "showTableOfContents" true "showRecent" false)
+  "path" "."
+  "title" "Professional Resume"
+  "description" "Professional resume of Alexandre HILTCHER"
+}}
+{{ .AddPage $page }}
