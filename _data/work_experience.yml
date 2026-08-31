@@ -2,18 +2,67 @@
     name: Blueberry Digital Services
     link: https://www.blueberryds.com/website2/
   positions:
+    - title: Software architect
+      location:
+        city: Levallois-Perret
+        country: France
+      dates:
+        start: April 2026
+        end: Today
+      project:
+        name: GBS platform
+        for: Geodis
+      context:
+        - Supported GEODIS, a premier logistics provider specializing in freight management (air, sea, land) and comprehensive inventory/order management.
+        - Building a unified plateform to streamline access to services and standardize customer experience across business units.
+      objectives:
+        - Lead the design and development of group services and APIs for GEODIS's unified platform.
+      responsibilities:
+        - Defined comprehensive functional and technical specifications utilizing Mermaid UML diagrams to streamline software design workflows.
+        - Authored production-ready OpenAPI specifications to standardize interface definitions across application component APIs.
+        - Collaborated with distributed DevOps organizations to build, refine, and maintain reusable tooling and self-service automation modules.
+        - Supervised and automated end-to-end CI/CD delivery pipelines using GitLab CI to improve deployment speed and reliability.
+        - Managed multi-cluster application deployments on Kubernetes using Kustomize configurations and ArgoCD for continuous GitOps workflows.
+      environment:
+        - name: Agile Environment
+          details: Collaborated within a dynamic Agile team, emphasizing iterative development, continuous feedback, and rapid adaptation to evolving requirements.
+        - name: API-First Design
+          details: Adhered to an API-First methodology, prioritizing API design and definition to ensure consistency, seamless integration, and high reusability.
+        - name: Feature-Driven API Design
+          details: Practiced Feature-Driven API Design, translating functional requirements into detailed flow and data model diagrams to generate and validate robust OpenAPI specifications.
+        - name: Domain Model-Centric Integration
+          details: Employed a Domain Model-Centric approach, developing and maintaining a standardized ontology to create an efficient and unified framework for inter-service data exchange.
+        - name: SOA & Cloud-Native Principles
+          details: Engineered solutions based on Service-Oriented Architecture (SOA) and Cloud-Native principles, promoting scalability, resilience, and modularity.
+        - name: Modern Development Practices
+          details: Championed modern development practices including Clean Code, Test-Driven Development (TDD), and Continuous Integration/Continuous Deployment (CI/CD) to ensure high-quality, maintainable, and rapidly delivered software.
+      technologies:
+        - name: Java
+          details: Spring Boot
+        - name: JavaScript Frontend
+          details: ReactJS
+        - name: PostgreSQL
+        - name: Kafka
+        - name: GitLab CI
+        - name: Kustomize
+        - name: ontology
+        - name: ArgoCD
+        - name: Kubernetes
+          details: OpenShift
+        - name: Mermaid
     - title: Software & DevOps Senior Engineer
       location:
         city: Levallois-Perret
         country: France
       dates:
         start: July 2024
-        end: Today
+        end: April 2026
       project:
-        name: Confidential
+        name: GBS platform
         for: Geodis
       context:
-        - Supported GEODIS, a premier logistics provider specializing in freight management (air, sea, land) and comprehensive inventory/order management. Project details are confidential.
+        - Supported GEODIS, a premier logistics provider specializing in freight management (air, sea, land) and comprehensive inventory/order management.
+        - Building a unified plateform to streamline access to services and standardize customer experience across business units.
       objectives:
         - Contributed to the design and development of group services and APIs for GEODIS's unified customer portal, aimed at streamlining access to services and standardizing customer experience across business units.
       responsibilities:

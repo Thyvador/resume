@@ -32,7 +32,9 @@
       {{ $content = printf "%s**Technologies:** " $content }}
       {{ range $index, $technology := . }}
         {{ if $index }}{{ $content = printf "%s, " $content }}{{ end }}
+        {{ if $technology.important }}{{ $content = printf "%s**" $content }}{{ end }}
         {{ $content = printf "%s%s" $content $technology.name }}
+        {{ if $technology.important }}{{ $content = printf "%s**" $content }}{{ end }}
         {{ with $technology.details }}{{ $content = printf "%s (%s)" $content . }}{{ end }}
       {{ end }}
       {{ $content = printf "%s.\n\n" $content }}
